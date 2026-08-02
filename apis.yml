@@ -1,22 +1,50 @@
 aid: tcell-io
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tcell-io.png
 name: Tcell Io
-description: Tcell Io is a company surfaced as a portfolio company of menlo-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Tcell Io (tCell.io) was surfaced as a portfolio company of Menlo Ventures and added to
+  the API Evangelist network as a lead for enrichment. As of this enrichment pass the company operates
+  no active web presence - its former domain tcell.io now resolves to a third-party domain-parking page
+  (parklogic.com) and returns no company site, developer portal, documentation, or API surface. No
+  OpenAPI, AsyncAPI, well-known discovery documents, SDKs, or other machine-readable API artifacts could
+  be found. This profile is retained as a network record; there is nothing enrichable until the company
+  publishes an active developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/tcell-io/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: inactive
+x-status-reason: domain-parked-no-api-surface
 x-backed-by:
 - menlo-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Security
+- Application Security
+- API Security
+- Inactive
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
